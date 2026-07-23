@@ -1,0 +1,18 @@
+{
+  "name": "Word Count",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "This is a Chrome extension that shows the word count of the current webpage.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open side panel"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "permissions": [
+    "sidePanel"
+  ]
+}
