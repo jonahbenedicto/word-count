@@ -4,7 +4,7 @@
   "manifest_version": 3,
   "description": "This is a Chrome extension that shows the word count of the current webpage.",
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "src/background.ts"
   },
   "action": {
     "default_title": "Open side panel"
